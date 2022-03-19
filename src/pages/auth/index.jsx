@@ -1,56 +1,50 @@
-import { React, useState, useEffect } from 'react'
-import { Row, Col } from 'reactstrap'
-import Signin from './login'
-import Signup from './register'
-import { useNavigate } from 'react-router-dom'
+import { React, useState, useEffect } from 'react';
+import { Row, Col } from 'reactstrap';
+import Signin from './login';
+import Signup from './register';
+import { useNavigate } from 'react-router-dom';
+import './style.scss';
+import Nav from '../armada/navbar';
 
 const AuthPages = () => {
-  const navigate = useNavigate()
-  const [currentContainer, setCurrentContainer] = useState(false)
+  const navigate = useNavigate();
+  const [currentContainer, setCurrentContainer] = useState(false);
 
   useEffect(() => {
-    // cek jika user sudah terotentikasi
-    let isAuth = localStorage.getItem('access_token')
+    let isAuth = localStorage.getItem('access_token');
     if (isAuth) {
-      //arahkan user kembali ke dashboard jika sudah login
-      navigate({ pathname: './dashboard' }) 
+      navigate({ pathname: './dashboard' });
     }
-  }, [navigate])
+  }, [navigate]);
 
   return (
-    <div className={`auth-pages`}>
-      <Row>
-        <Col md="12" lg="6" >
-          <div className="background bg-left">
-            <p>This is</p>
-            <p>React.js</p>
-            <p>Crud</p>
-            <p>App</p>
-            <hr />
-          </div>
-        </Col>
-        <Col md="12" lg="6">
-          <div className="card-auth-page">
+    <div className="container">
+      <Nav />
+      <div className={`auth-pages`}>
+        <Row>
+          <Col>
+            <div className="card-auth-page">
               <div className={`card-inner`}>
-                {
-                  currentContainer ?
-                    <div className={`card-register `}>
-                      <h3>Sign up</h3>
-                      <Signup setCurrentContainer={setCurrentContainer} />
-                      <button className="btn-chang-container" onClick={() => setCurrentContainer(false)}> Sudah punya Akun?</button>
-                    </div> :
-                    <div className={`card-login`}>
-                      <h3>Login</h3>
-                      <Signin />
-                      <button className="btn-chang-container"  onClick={() => setCurrentContainer(true)}>Daftar</button>
-                    </div>
-                }
+                {currentContainer ? (
+                  <div className={`card-register `}>
+                    <h3>Sign up</h3>
+                    <Signup setCurrentContainer={setCurrentContainer} />
+                    <button onClick={() => setCurrentContainer(false)}> Sudah punya Akun?</button>
+                  </div>
+                ) : (
+                  <div className={`card-login`}>
+                    <h3>Login</h3>
+                    <Signin />
+                    <button onClick={() => setCurrentContainer(true)}>Daftar</button>
+                  </div>
+                )}
               </div>
-          </div>
-        </Col>
-      </Row>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default AuthPages;
