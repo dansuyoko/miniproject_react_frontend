@@ -1,0 +1,64 @@
+.login-page {
+  background-color: aqua;
+  $main-color: #0b7a7a;
+  $second-color: #1db4b4;
+  $third-color: #0b4e7a;
+
+  color: $main-color;
+  text-align: center;
+
+  background-color: transparent;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20px;
+  overflow: hidden;
+
+  .form-container {
+    margin: 150px auto;
+    padding: 50px 20px;
+    max-width: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    .title {
+      font-size: clamp(0.8rem, 0.8vw + 1.7rem, 2rem);
+    }
+
+    .row-input {
+      margin: 0px;
+      height: 60px;
+      text-align: left;
+    }
+
+    .form-control {
+      border: none;
+      border-radius: 10px;
+      &:focus {
+        box-shadow: 1px 1px 1px;
+      }
+    }
+
+    .invalid-feedback {
+      font-size: 10px;
+    }
+
+    .btn-submit {
+      margin: 15px 0px;
+      width: 100%;
+      border-radius: 10px;
+      background-image: linear-gradient(to right, $second-color, $main-color, $third-color);
+      border: none;
+      &:active,
+      &:focus {
+        box-shadow: 1px 1px 1px;
+      }
+      a:hover, a{
+        color: aliceblue;
+        text-decoration: none;
+      }
+    }
+
+  }
+}

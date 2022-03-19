@@ -1,0 +1,92 @@
+{
+  "armada": [
+    {
+      "name": "Avanza",
+      "stock": "100",
+      "price": "350000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/avanza-2021-NEW.png",
+      "id": "GbVhQW6"
+    },
+    {
+      "name": "New Camry",
+      "stock": "10",
+      "price": "700000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/camry-2021-NEW.png",
+      "id": "-ziv09p"
+    },
+    {
+      "name": "New Voxy",
+      "stock": "20",
+      "price": "650000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2022-02/voxy-2022-NEW.png",
+      "id": "QmQ8FSR"
+    },
+    {
+      "name": "New Raize",
+      "stock": "5",
+      "price": "400000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/raize-NEW.png",
+      "id": "Ge84EIR"
+    },
+    {
+      "name": "New Fortuner Gr",
+      "stock": "10",
+      "price": "800000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-08/fortuner-trd-gr-NEW.png",
+      "id": "NUpRUgK"
+    },
+    {
+      "name": "New Rush GR",
+      "stock": "20",
+      "price": "500000",
+      "book": "3",
+      "bookedBy": "PT XX",
+      "date": "21/05/2022",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/rush-gr-NEW.png",
+      "id": "s2ePtnd"
+    },
+    {
+      "name": "New Innova",
+      "stock": "50",
+      "price": "600000",
+      "book": "3",
+      "bookedBy": "PT A",
+      "date": "21/03/2022",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/innova-2020.png",
+      "id": "zQNCd0J"
+    },
+    {
+      "name": "New Alphard",
+      "stock": "5",
+      "price": "1000000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/ALPHARD%202021.png",
+      "id": "AtQ5kKZ"
+    }
+  ],
+  "users": [
+    {
+      "email": "testdev@email.com",
+      "password": "$2a$10$uGAojYUVeUAvaHQgZ7CRlubGNDWSLBePRbBz39TIlGaU6Cfk.Jygu",
+      "username": "testdev1",
+      "id": 1
+    }
+  ]
+}
