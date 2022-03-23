@@ -1,14 +1,14 @@
 {
   "armada": [
     {
-      "name": "Avanza",
+      "name": "New Avanza ",
       "stock": "100",
       "price": "350000",
       "book": 0,
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/avanza-2021-NEW.png",
-      "id": "GbVhQW6"
+      "id": "BL4Oit6"
     },
     {
       "name": "New Camry",
@@ -18,7 +18,7 @@
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/camry-2021-NEW.png",
-      "id": "-ziv09p"
+      "id": "CWhgoT_"
     },
     {
       "name": "New Voxy",
@@ -28,7 +28,7 @@
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2022-02/voxy-2022-NEW.png",
-      "id": "QmQ8FSR"
+      "id": "7qumX2H"
     },
     {
       "name": "New Raize",
@@ -38,7 +38,7 @@
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/raize-NEW.png",
-      "id": "Ge84EIR"
+      "id": "Zv_ahyQ"
     },
     {
       "name": "New Fortuner Gr",
@@ -48,27 +48,7 @@
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-08/fortuner-trd-gr-NEW.png",
-      "id": "NUpRUgK"
-    },
-    {
-      "name": "New Rush GR",
-      "stock": "20",
-      "price": "500000",
-      "book": "3",
-      "bookedBy": "PT XX",
-      "date": "21/05/2022",
-      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/rush-gr-NEW.png",
-      "id": "s2ePtnd"
-    },
-    {
-      "name": "New Innova",
-      "stock": "50",
-      "price": "600000",
-      "book": "3",
-      "bookedBy": "PT A",
-      "date": "21/03/2022",
-      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/innova-2020.png",
-      "id": "zQNCd0J"
+      "id": "tdvCfTT"
     },
     {
       "name": "New Alphard",
@@ -78,7 +58,17 @@
       "bookedBy": "",
       "date": "",
       "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/ALPHARD%202021.png",
-      "id": "AtQ5kKZ"
+      "id": "5nFgV-O"
+    },
+    {
+      "name": "New Rush GR",
+      "stock": "20",
+      "price": "500000",
+      "book": 0,
+      "bookedBy": "",
+      "date": "",
+      "picture": "https://www.toyota.astra.co.id/sites/default/files/2021-11/rush-gr-NEW.png",
+      "id": "BLfr-oM"
     }
   ],
   "users": [
@@ -87,6 +77,18 @@
       "password": "$2a$10$uGAojYUVeUAvaHQgZ7CRlubGNDWSLBePRbBz39TIlGaU6Cfk.Jygu",
       "username": "testdev1",
       "id": 1
+    },
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$FgMgSn8E5NOMaZmZ1wJaAeDrqlZM3MzKAmXoLohUuJLxtnwWPC/Ka",
+      "username": "danangsy",
+      "id": 2
+    },
+    {
+      "email": "dansu.yokovic@gmail.com",
+      "password": "$2a$10$MOjVck7gT549uFYFvkeOwu5J8i8tOrE8hulmKSXvYS1HGi8q2yqV2",
+      "username": "danangsuyoko",
+      "id": 3
     }
   ]
 }

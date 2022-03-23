@@ -18,11 +18,11 @@ export default function FormDashboard({ actionForm, data, setModalVisible, updat
 
   const createData = async () => {
     await axios
-      .post('http://localhost:8080/armada', form)
+      .post("http://localhost:8080/armada", form)
       .then(() => {
         data.push(form);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => alert(err));
     setModalVisible(false);
   };
 
@@ -62,7 +62,9 @@ export default function FormDashboard({ actionForm, data, setModalVisible, updat
             <FormGroup>
               <Label>{key}</Label>
               <Input
+                type={key === "name" || key === "picture" ? "text" : "number"}
                 value={form[key]}
+                placeholder={key}
                 onChange={(e) =>
                   setForm((prev) => ({
                     ...prev,
@@ -76,7 +78,7 @@ export default function FormDashboard({ actionForm, data, setModalVisible, updat
         <br />
         <Button color="primary" type="submit">
           Submit
-        </Button>
+        </Button>{' '}
         <Button onClick={() => setModalVisible(false)}>Cancel</Button>
       </form>
     </div>

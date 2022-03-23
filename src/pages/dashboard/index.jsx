@@ -87,7 +87,7 @@ export default function Dashboard() {
       </div>
       <div className='content' style={{ margin: '100px 100px' }}>
         <Button onClick={() => handleCreate()} style={{ margin: '10px 10px 12px 0px' }}>
-          <FontAwesomeIcon icon={'square-plus'} />
+          <FontAwesomeIcon icon={'square-plus'} /> Add New Data
         </Button>
         <Table className='tabel' light bordered responsive >
           <thead>
@@ -104,7 +104,6 @@ export default function Dashboard() {
                 <td>{v.name}</td>
                 <td>{v.stock}</td>
                 <td>{v.price}</td>
-                {/* <td><CardImg top width="100%" src={v.picture} /></td> */}
                 <td>
                   <Button onClick={() => handleEdit(v.id)} style={{ margin: '10px 10px 10px 0px' }}>
                     <FontAwesomeIcon icon={'edit'} />

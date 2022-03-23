@@ -5,9 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine !important;
+  background-color: rgb(201, 226, 250) !important;
   display: flex;
-  background-image: url('../src/assets/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 

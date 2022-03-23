@@ -24,8 +24,6 @@ export default function Login() {
 
       await axios('http://localhost:8080/login', data)
         .then(res => {
-          localStorage.setItem('access_token', res.data.accesToken)
-          window.location = "/dashboard"
         })
       .catch(err => {
         localStorage.setItem('access_token', 'aaaaaaaa')

@@ -7,7 +7,9 @@ function NavbarDashboard() {
   return (
     <div className="nav-bar">
       <Navbar color="info" expand="md" fixed="top" light>
-        <NavbarBrand href="/"><FontAwesomeIcon icon={'car'} size={'70'} /></NavbarBrand>
+        <NavbarBrand href="/">
+          <FontAwesomeIcon icon={'car'} size={'70'} />
+        </NavbarBrand>
         <NavbarToggler onClick={function noRefCheck() {}} />
         <Collapse navbar>
           <Nav className="me-auto" navbar>
@@ -17,7 +19,7 @@ function NavbarDashboard() {
           </Nav>
           <NavbarText>
             <Button href="/login">
-              <FontAwesomeIcon icon={'sign-in'} />
+              <FontAwesomeIcon icon={'sign-in'} /> Login
             </Button>
           </NavbarText>
         </Collapse>

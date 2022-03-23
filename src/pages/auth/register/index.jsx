@@ -32,7 +32,8 @@ const Register = ({ setCurrentContainer }) => {
       email,
       username,
       password
-    })
+    },
+    window.location = "/login")
       .then(() => {
         setCurrentContainer(false);
       })
